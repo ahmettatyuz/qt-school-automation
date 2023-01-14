@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>nott</class>
+ <widget class="QDialog" name="nott">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>699</width>
+    <height>702</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="tumOgrenciler">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>80</y>
+     <width>351</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>691</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>208</red>
+         <green>208</green>
+         <blue>208</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="96">
+         <red>164</red>
+         <green>166</green>
+         <blue>168</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>NOT İŞLEMLERİ</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>50</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tüm Öğrenciler</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>430</x>
+     <y>50</y>
+     <width>161</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tüm Dersler</string>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tumDersler">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>80</y>
+     <width>256</width>
+     <height>192</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>300</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Öğrenci No:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>330</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ders Kodu:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>300</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vize Not:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>330</y>
+     <width>111</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Final Not:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ogr_no">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>300</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ders_kodu">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>150</x>
+     <y>330</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="vize_not">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>300</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="final_not">
+   <property name="geometry">
+    <rect>
+     <x>440</x>
+     <y>330</y>
+     <width>113</width>
+     <height>24</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QTableView" name="tumOgrenciDers">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>450</y>
+     <width>651</width>
+     <height>231</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>420</y>
+     <width>651</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Tüm Öğrenci-Ders Kayıtları</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="dersKayit">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>370</y>
+     <width>91</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Ders Kayıt Ekle</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

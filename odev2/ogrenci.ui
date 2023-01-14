@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ogrenci</class>
+ <widget class="QDialog" name="ogrenci">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>582</width>
+    <height>393</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QTableView" name="ogrenciler">
+   <property name="geometry">
+    <rect>
+     <x>5</x>
+     <y>60</y>
+     <width>291</width>
+     <height>301</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>10</y>
+     <width>581</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="palette">
+    <palette>
+     <active>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>255</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </active>
+     <inactive>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </inactive>
+     <disabled>
+      <colorrole role="WindowText">
+       <brush brushstyle="SolidPattern">
+        <color alpha="85">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </colorrole>
+     </disabled>
+    </palette>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="text">
+    <string>Öğrenci İşlemleri</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>70</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Öğrenci No:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>110</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Öğrenci Ad:</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>150</y>
+     <width>101</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Öğrenci Soyad:</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="no">
+   <property name="enabled">
+    <bool>false</bool>
+   </property>
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>70</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="ad">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>110</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="soyad">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>140</y>
+     <width>113</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="yeni_kayit">
+   <property name="geometry">
+    <rect>
+     <x>310</x>
+     <y>230</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Yeni Kayıt</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="sil">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>230</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Sil</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="guncelle">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>290</y>
+     <width>75</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Güncelle</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

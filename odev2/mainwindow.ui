@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>735</width>
+    <height>506</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>731</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>0</green>
+          <blue>0</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>208</red>
+          <green>208</green>
+          <blue>208</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="WindowText">
+        <brush brushstyle="SolidPattern">
+         <color alpha="96">
+          <red>164</red>
+          <green>166</green>
+          <blue>168</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>ÖĞRENCİ - DERS OTOMASYONUNA HOŞGELDİNİZ !</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="ogrenciIslem">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>200</y>
+      <width>171</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/images/ogr.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="dersIslem">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>200</y>
+      <width>181</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/images/ders.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>380</y>
+      <width>171</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Öğrenci İşlemleri</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>380</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Ders İşlemleri</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>380</y>
+      <width>191</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string>Not İşlemleri</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="notIslem">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>200</y>
+      <width>191</width>
+      <height>171</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/images/images/notlar.jpg);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>735</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
